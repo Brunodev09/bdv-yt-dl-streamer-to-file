@@ -1,0 +1,22 @@
+{
+  "name": "bdv-yt-dl-streamer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ffmpeg.js",
+  "scripts": {
+    "start": "tsc && node ./tsc/index.js"
+  },
+  "author": "brunodev09",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "progress-stream": "^2.0.0",
+    "sanitize-filename": "^1.6.3",
+    "ytdl-core": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.26",
+    "cors": "^2.8.5",
+    "typescript": "^3.7.5"
+  }
+}
