@@ -3,7 +3,7 @@ const Streamer = require("./tsc/Streamer").Streamer;
 
 try {
     const link = "4oMJIyVOWL4";
-    const outPath = "/home/bgiannoti/Work/bdv-yt-dl-streamer-to-file/videos";
+    const outPath = "/home/bruno/Desktop/bdv-yt-dl-streamer-to-file/videos";
     const format = "Audio";
     const quality = "Highest";
     const pathToFfmpeg = "/snap/bin/ffmpeg";

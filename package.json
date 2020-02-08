@@ -1,13 +1,24 @@
 {
-  "name": "bdv-yt-dl-streamer",
+  "name": "yt-dl-streamer",
   "version": "1.0.0",
-  "description": "",
-  "main": "ffmpeg.js",
+  "description": "Script to capture yt-dl-core readable streams and write them to '.flv' or '.mp3' files on your disk.",
+  "main": "tsc/Streamer.js",
   "scripts": {
-    "start": "tsc && node ./tsc/index.js"
+    "start": "tsc && node ./tsc/Streamer.js"
   },
   "author": "brunodev09",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brunodev09/bdv-yt-dl-streamer-to-file"
+  },
+  "keywords": [
+    "youtube",
+    "streamer",
+    "download",
+    "mp3",
+    "flv"
+  ],
+  "license": "(MIT)",
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2",
     "progress-stream": "^2.0.0",

@@ -1,4 +1,4 @@
-# bdv-youtube-mp3
+# yt-dl-streamer
 
 Script to capture yt-dl-core readable streams and write them to ".flv" or ".mp3" files on your disk.
 
@@ -18,9 +18,8 @@ Basically a module that downloads Youtube audio and/or video to your disk using 
 
 ### Installing
 
-* Install Node.js and it's dependencies.
 ```
-$: npm i
+$: npm i --save yt-dl-streamer
 ```
 
 ### Examples in Javascript
@@ -28,11 +27,11 @@ $: npm i
 * Downloading a video:
 
 ```
-const Streamer = require("./tsc/Streamer").Streamer;
+const Streamer = require("yt-dl-streamer").Streamer;
 
 try {
     const link = "4oMJIyVOWL4";
-    const outPath = "/home/bgiannoti/Work/bdv-yt-dl-streamer-to-file/videos";
+    const outPath = "/home/bgiannoti/Work/myStuff/videos";
     const format = "Video";
     const quality = "Highest";
     const timeoutBetweenProgressEmits = 1000;
