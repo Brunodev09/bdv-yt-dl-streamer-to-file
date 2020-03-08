@@ -1,6 +1,6 @@
 {
   "name": "yt-dl-streamer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Script to capture yt-dl-core readable streams and write them to '.flv' or '.mp3' files on your disk.",
   "main": "tsc/Streamer.js",
   "scripts": {
